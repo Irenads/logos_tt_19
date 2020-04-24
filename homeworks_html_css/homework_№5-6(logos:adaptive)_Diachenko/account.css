@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Bahij';
+    src: url(fonts/bahij-sultannahia.ttf);
+}
+@font-face{
+    font-family: 'Chronica';
+    src: url(fonts/ChronicaPro-Regular.ttf);
+}
+.name{
+    font-size: 25px;
+    font-family: 'Bahij';
+    
+}
+.text{
+    font-family: 'Chronica';
+    font-size: 12px;
+    color: rgb(190, 190, 190);        
+}
+
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 20vh;
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Bahij';
+    font-size: 20px;
+}
+.flex-conteiner-account{
+    display: flex;
+    width: 98%;
+    height: 550px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 10px;
+    margin: 0px 10px auto 10px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.flex-conteiner-aside{
+    height: 300px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+    left: 30px;
+    top: 100;
+    border-radius: 10px;
+
+}
+.icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+.icon:hover{
+    background-color: rgb(70, 136, 236);
+    fill: white;
+}
+
+.icon-highlight{
+    background-color: rgb(70, 136, 236);
+    fill: white;
+}
+
+.icon-text{
+    
+    display: none;
+    width: 0px;
+    height: 40px;
+    background-color:rgb(70, 136, 236);
+    position: absolute;
+    left: 45px;
+    color:white;
+    border-radius: 0 10px 10px 0; 
+         
+}
+.icon:hover .icon-text{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    align-items: center;  
+}
+.flex-right{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.login{
+    width: 450px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    
+
+}
+.up{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circleA{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    direction: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    background-color: rgb(230, 72, 72);
+
+}
+.letter{fill: white; width: 30px; height: 30px;}
+.context{
+    width: 80%;
+}
+input{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    text-indent: 10px;
+}
+input:focus{
+    
+    outline: none;
+    border: 1px solid rgb(70, 136, 236);
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+
+.password{
+    width: 450px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    direction: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    background-color:rgb(70, 136, 236);
+    
+}
+.adress{
+    width: 650px;
+    height: 510px;
+    background-color: white;
+    border-radius: 10px;
+}
+.circle3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    direction: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    background-color:orange;
+    
+}
+.context3{
+    width: 85%;
+}
+.pass-line{
+    width: 100%;
+    height: 40px;
+    
+}
+.form-group{
+    width: 425px;
+    height: 90px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 20px;
+   font-family: 'Bahij';
+   font-size: 18px;
+
+}
+.botton{
+ display: flex;
+ width: 425;
+ height: 70px;
+ justify-content: flex-end;
+ align-items: center;
+ padding-right: 20px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(70, 136, 236);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    
+    
+}
+
+.com-name{
+    width: 610px;
+    height: 40px;
+}
+input.com-address{
+    width: 610px;
+    height: 80px;
+    padding-bottom: 36px;
+    overflow: hidden;
+}
+.flex-container-country{
+    display: flex;
+    width: 610px;
+    height: 160px;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+.country, .city{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+
+.coun{
+ 
+ height: 40px;
+}
+.form-group1{
+    width: 425px;
+    height: 90px;
+    font-family: 'Bahij';
+    font-size: 18px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 20px;
+
+}
+.form-group2{
+    width: 425px;
+    height: 110px;
+   font-family: 'Bahij';
+   font-size: 18px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 20px;
+
+}
+.form-group3{
+    width: 425px;
+    height: 160px;
+   padding-left: 20px;
+   font-family: 'Bahij';
+   font-size: 18px;
+   
+
+}
+
+

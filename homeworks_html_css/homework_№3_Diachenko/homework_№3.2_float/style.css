@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    
+    color: black;
+    text-align: center;
+}
+
+
+.box{
+    width: 700px;
+    height: 550px;
+    background-color: thistle;
+    margin: 0 auto;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+/* шапка сайту */
+
+.header{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: wheat;
+
+}
+    .block1{
+    width: 400px;
+    height: 50px;
+    background-color:darkgoldenrod;
+    margin: 25px auto;
+    }
+   
+    .block2{
+    width: 200px;
+    height: 20px;
+    background-color:white;
+    margin: -60px auto;
+    }
+   
+
+/* 5 блоків з "Меню сайту" */
+
+.menu{
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+        .m1{background-color: blue;}
+        .m2{background-color: blueviolet;}
+        .m3{background-color: burlywood;}
+        .m4{background-color: cadetblue;}
+        .m5{background-color: crimson;}
+
+/*три батьківські блоки з різною кількістью дочірніх у кожному*/
+
+.second{
+    float: left;
+    width: 33.333%;
+    height: 250px;
+}
+
+    /* блок з класу second text */
+
+    .text{background-color: tomato;}
+        .text1{
+            width: 150px;
+            height: 50px;
+            background-color: gray;
+            text-align: center;
+            line-height: 50px;
+            margin: 10px auto 25px;
+        }
+            .three{
+                width: 50%;
+                height: 55px;
+                background-color: green;
+                margin: auto;
+            }
+            .four{
+                float: left;
+                width: 25%;
+                height: 110px;
+                background-color: hotpink;
+                margin: auto 25%;
+            }
+            .five{
+                float: left;
+                width: 25%;
+                height: 110px;
+                background-color: rgb(223, 245, 26);
+                margin: auto -25%;
+            }
+    
+    /* блок з класу second a */
+
+    .a{background-color: rgb(230, 62, 165)}
+   
+        .a1{
+            width: 100%;
+            height: 30px;
+            background-color: violet;}
+        .bcd{
+            float: left;
+            width: 33.333%;
+            height: 220px;
+            background-color: whitesmoke;
+        }
+            .b{
+                width: 100%;
+                height: 100%;
+                background-color: yellow;   
+            }
+                .b1{
+                    float: left;
+                    width: 50%;
+                    height: 165px;
+                    background-color: violet;
+                    margin-top: -165px;
+                }
+                .b2{
+                    float: right;
+                    width: 50%;
+                    height: 83px;
+                    background-color: turquoise;
+                    margin-top: -83px;
+                 }
+            .c{
+                width: 100%;
+                height: 25%;
+            }
+            .c1{background-color: rgb(9, 84, 119);}
+            .c2{background-color: white;}
+            .c3{background-color: rgb(26, 113, 184);}
+            .c4{
+                float: left;
+                width: 50%;
+                height: 25%;
+                background-color: rgb(53, 44, 107) ;
+            }
+            .c5{
+                float: left;
+                width: 50%;
+                height: 25%;
+                background-color: teal;
+            }
+            .d1{
+                width: 100%;
+                height: 25%;
+                background-color: lemonchiffon;
+            }
+            .d2{
+                width: 100%;
+                height: 25%;
+                background-color: rgb(11, 145, 82);
+            }
+            .d3{
+                width: 100%;
+                height: 50%;
+                background-color: rgb(146, 50, 6);
+            }
+
+    /* блок з класу second  number*/
+
+    .number{background-color: teal;}
+        .figures{
+            width: 33.33%;
+            height: 30px;
+            float: left;
+        }
+        .I{background-color: lemonchiffon;}
+        .II{background-color: lightpink;}
+        .III{background-color: magenta;}
+        .figures_IV{
+            float: left;
+            width: 100%;
+            height: 44px;
+            background-color: mediumspringgreen;
+        }
+            .figures_V{
+                width: 60%;
+                height: 30px;
+                background-color: red;
+                margin: 7px auto;
+            }
+            .figures_{
+                width: 20px;
+                height: 5px;
+                background-color: black;
+                margin: -12.5px auto;
+            }
+        .figures_VI{
+            float: left;
+            width: 100%;
+            height: 44px;
+            background-color: rgb(80, 77, 230);
+        }
+        .figures_VII{
+            float: left;
+            width: 33.33%;
+            height: 132px;
+            background-color: mediumspringgreen;
+        }
+        .figures_VIII{
+            float: left;
+            width: 66.67%;
+            height: 44px;
+            background-color: rgb(218, 204, 20);
+        }
+        .figures_IX{
+            float: left;
+            width: 33.335%;
+            height: 44px;
+            background-color: mediumvioletred;
+        }
+        .figures_X{
+            float: left;
+            width: 33.335%;
+            height: 44px;
+            background-color: rgb(14, 90, 5);
+        }
+
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}

@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'Alegreya';
+    src: url(Alegreya/Alegreya-Medium.ttf);
+}
+.gradient{
+    float: left;
+    width: 14.285%;
+    height: 600px;
+    font-size: 150px;
+    text-align: center;
+    line-height: 500px;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    text-transform: uppercase;
+    font-family: Alegreya;
+}
+.a{background-image: linear-gradient(to top, rgb(136, 2, 2),rgb(247, 45, 45));}
+.r{background-image: linear-gradient(to top, #b92b27, #1565c0);}
+.s{background-image: linear-gradient(to bottom,#22c1c3, #fdbb2d);}
+.e{background-image: linear-gradient(to top, #000000,#0f9b0f);}
+.n{background-image: linear-gradient(to bottom, #03001e,#7303c0,#ec38bc,#fdeff9);}
+.l{background-image: linear-gradient(to top,#863c0e,#9a8478);}
