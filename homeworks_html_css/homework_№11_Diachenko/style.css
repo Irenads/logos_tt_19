@@ -1,0 +1,29 @@
+.heading{
+    padding-left: 18%;
+    padding-right: 18%;
+    min-height: 15rem;
+    background-color: #563d7c;
+    
+}
+main{
+    padding-left: 18%;
+    padding-right: 18%;  
+}
+
+.form-control{
+    width: 100%;
+    background-color: rgba(145, 143, 143, 0.151);   
+}
+footer{
+    padding-left: 18%;
+    padding-right: 18%;
+    min-height: 10rem;
+    background-color: #77767913;   
+}
+.conteiner{
+    padding-top: 2rem;
+}
+.tex-footer{
+    font-size: 0.5rem;
+}
+

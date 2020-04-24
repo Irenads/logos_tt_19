@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suffix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="heading">
+            <span class="menu"><svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.3871 1H24.6258" stroke="black" stroke-width="2" stroke-linecap="square"/>
+                <path d="M1.3913 9H18.6087" stroke="black" stroke-width="2" stroke-linecap="square"/>
+                <path d="M1.3871 18H24.6258" stroke="black" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+            </span>    
+            <p class="logo">
+                <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5232 17.7451C5.5232 18.0882 5.58112 18.4915 5.71444 18.9486C5.8434 19.4089 6.10677 19.845 6.47943 20.2557C6.86083 20.6706 7.3996 21.0211 8.12087 21.3061C8.82576 21.5922 9.76669 21.7327 10.9317 21.7327C11.5742 21.7327 12.2026 21.6841 12.8321 21.5986C13.4638 21.5067 14.0299 21.3452 14.5511 21.1161C15.056 20.8881 15.468 20.5671 15.785 20.1522C16.1073 19.7383 16.2669 19.202 16.2669 18.5337C16.2669 18.0555 16.1598 17.6553 15.9369 17.3323C15.6964 17.0061 15.3872 16.7421 14.9741 16.5236C14.5511 16.3082 14.0626 16.1161 13.4955 15.9577C12.9228 15.7993 12.3075 15.6367 11.6376 15.4731L8.89351 14.8576C7.86078 14.6274 6.84553 14.3783 5.8729 14.0996C4.90137 13.8272 4.04021 13.4271 3.29271 12.9161C2.54302 12.4009 1.94305 11.7188 1.4775 10.8795C1.01523 10.0529 0.781366 8.95066 0.781366 7.60141C0.781366 7.14322 0.841472 6.63223 0.939828 6.08641C1.0502 5.53636 1.23052 4.98209 1.4939 4.41727C1.75509 3.85561 2.119 3.30556 2.57909 2.77135C3.04791 2.23291 3.64023 1.76416 4.37899 1.35453C5.11447 0.960734 5.98874 0.630284 7.01274 0.380071C8.03454 0.127746 9.23229 0 10.6093 0C12.5469 0 14.1665 0.276607 15.4527 0.825598C16.7368 1.3767 17.7499 2.0566 18.5149 2.85686C19.2755 3.65924 19.8044 4.52178 20.1159 5.45401C20.4164 6.37885 20.5727 7.22557 20.5727 7.97937H15.4527C15.4014 7.70804 15.3216 7.35437 15.2167 6.92784C15.1129 6.5066 14.8801 6.10013 14.5238 5.71056C14.1665 5.31782 13.6452 4.98209 12.9818 4.69704C12.3032 4.41093 11.3786 4.26418 10.2158 4.26418C9.71861 4.26418 9.2006 4.31908 8.67057 4.41727C8.1329 4.52178 7.6586 4.69387 7.22256 4.91875C6.79745 5.14679 6.44446 5.45401 6.18327 5.83092C5.89913 6.21099 5.76908 6.6713 5.76908 7.22557C5.76908 7.70804 5.85105 8.10184 6.03246 8.40801C6.20731 8.7184 6.44337 8.9665 6.70893 9.1502C6.98979 9.33285 7.27939 9.46904 7.60178 9.56194C7.91979 9.65063 8.21704 9.73298 8.47168 9.80266L14.703 11.2828C15.5751 11.4866 16.421 11.7389 17.2319 12.0366C18.0373 12.3365 18.7498 12.7355 19.3629 13.2402C19.9869 13.7459 20.4776 14.3783 20.8361 15.1342C21.2153 15.8848 21.3945 16.8171 21.3945 17.9161C21.3945 19.1587 21.1989 20.2187 20.8109 21.0981C20.412 21.9797 19.9126 22.7219 19.2755 23.3163C18.6471 23.9138 17.9553 24.3889 17.1903 24.7426C16.4363 25.1047 15.6779 25.3687 14.9336 25.5534C14.185 25.7371 13.4955 25.8533 12.8463 25.9145C12.207 25.9673 11.7076 26 11.3174 26C8.99405 26 7.11546 25.7139 5.68166 25.1417C4.24239 24.5631 3.12769 23.8674 2.34522 23.0238C1.5693 22.1908 1.04474 21.2882 0.781366 20.3274C0.523456 19.3593 0.394501 18.4999 0.394501 17.7451H5.5232Z" fill="#000000"/>
+                    </svg>
+                    <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3945 16.6832C20.3945 18.3202 20.1549 19.7212 19.6808 20.8934C19.2141 22.0666 18.537 23.0351 17.6475 23.7894C16.7664 24.5478 15.6917 25.1078 14.4359 25.463C13.1802 25.8161 11.7685 26 10.203 26C9.63058 26 9.00166 25.9561 8.31936 25.8767C7.64021 25.7952 6.95164 25.6354 6.25365 25.4139C5.54415 25.1799 4.84615 24.8686 4.17746 24.4914C3.49517 24.1164 2.88194 23.6212 2.32941 22.9954C1.66386 22.2359 1.17726 21.3562 0.891571 20.3595C0.60484 19.3587 0.435313 18.2346 0.394501 16.9955V0H5.68228V16.655C5.68228 17.5242 5.7953 18.2722 6.02238 18.8917C6.25365 19.5112 6.57073 20.0252 6.97466 20.4264C7.37441 20.8276 7.84532 21.1253 8.38843 21.3238C8.93259 21.515 9.49559 21.6174 10.1025 21.6174C11.892 21.6174 13.1802 21.2079 13.9493 20.3888C14.7248 19.5708 15.114 18.4111 15.114 16.8942V0H20.3945V16.6832Z" fill="#000000"/>
+                        </svg>
+                        <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97543 26H0.394501V0H19.3945V4.52652H5.97543V10.7791H17.7212V15.1864H5.97543V26Z" fill="#000000"/>
+                        </svg>
+                    <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97543 26H0.394501V0H19.3945V4.52652H5.97543V10.7791H17.7212V15.1864H5.97543V26Z" fill="#000000"/>
+                    </svg>
+                    <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.39619 26H0.394501L6.3872 0H12.3945L6.39619 26Z" fill="#000000"/>
+                        </svg>
+                    
+                        <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5624 0H13.5648V1.01385H8.37083L14.4392 11.3156L21.6284 1.01385H17.0242V0H26.8921V1.01385H23.0184L15.1838 12.391L24.0367 25.9872H28.3945V27H15.0694V25.9872H19.2701L12.867 15.799L5.65281 25.9872H10.4663V27H0.394501V25.9872H4.23112L12.093 14.757L3.66091 1.01385H0.5624V0Z" fill="#000000"/>
+                            </svg>
+                </p> 
+        </nav>
+        <section class="title">
+            <div class="title-foto"></div>
+            <div class="title-deskription">
+                <div class="title-deskription-up">
+                    <p  class="date">10/10/2020</p>
+                    <a href="#" class="title-deskription-a">LIFESTYLE</a>
+                </div>
+                <p class="title-heading">At vero eos et accusamus et</p>
+                <p class="title-text">  odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint occaecati </p>
+               <p> <button type="button" class="title-deskription-btn">READ MORE</button></p>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="main-content">
+        <p class="txt-uppercase-featured">FEATURED</p>
+        <div class="main-flex-line-one">
+            <div class="main-one">
+                <div class="image-foto one"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a main-line-one-lifestyle">LIFESTYLE</a>
+                </div>
+                <p class="main-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="main-text">ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+            </div>
+            <div class="main-one">
+                <div class="image-foto two"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a main-line-one-lifestyle">LIFESTYLE</a>
+                </div>
+                <p class="main-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="main-text">ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="main-flex-line-two">
+            <div class="main-two">
+                <div class="image-fotos three"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">LIFESTYLE</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p>
+                
+            </div>
+            <div class="main-two">
+                <div class="image-fotos four"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">LIFESTYLE</a>
+                </div>
+                <p class="main-two-heading">At vero eos et </p>
+                
+            </div>
+            <div class="main-two">
+                <div class="image-fotos five"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">LIFESTYLE</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p>
+                
+            </div>
+        </div>
+        <p class="box-btn first-btn-seeall"> <button type="button" class="main-btn">SEE ALL</button></p>
+
+
+
+
+        <aside class="main-flex-line-three">
+            <div class="line-three-foto"></div>
+            <div class="line-three">
+                <p class="line-three-heading">ISSUE 22 - MAY 2020</p>
+               <p> <button type="button" class="line-three-btn">SUBSCRIBE NOW</button></p>
+            </div>
+        </aside>
+
+
+        <div class="txt-uppercase">INTERVIEWS</div>
+        
+        <div class="main-flex-line-two">
+            <div class="main-two">
+                <div class="image-fotos seven"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">INTERVIEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p> 
+            </div>
+
+            <div class="main-two">
+                <div class="image-fotos eight"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">INTERVIEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et </p>
+            </div>
+
+            <div class="main-two">
+                <div class="image-fotos nine"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a">INTERVIEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p>  
+            </div>
+        </div>
+
+        <p class="box-btn second-btn-seeall"> <button type="button" class="main-btn">SEE ALL</button></p>
+        
+        <p class="txt-uppercase news">NEWS</p>
+           
+        <div class="main-flex-line-two">
+            <div class="main-two">
+                <div class="image-fotos ten"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a news">NEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p>
+                
+            </div>
+            <div class="main-two">
+                <div class="image-fotos eleven"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a news">NEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et </p>
+                
+            </div>
+            <div class="main-two">
+                <div class="image-fotos twelf"></div>
+                <div class="title-deskription-up main-flex-line">
+                    <p  class="main-date">10/10/2020</p>
+                    <a href="#" class="main-a news">NEWS</a>
+                </div>
+                <p class="main-two-heading">At vero eos et accusamus et iusto</p>
+                
+            </div>
+        </div>
+        <p class="box-btn third-btn-seeall"> <button type="button" class="main-btn">SEE ALL</button></p>
+
+    </main>
+    <footer class="footer">
+        <p>
+        <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5232 17.7451C5.5232 18.0882 5.58112 18.4915 5.71444 18.9486C5.8434 19.4089 6.10677 19.845 6.47943 20.2557C6.86083 20.6706 7.3996 21.0211 8.12087 21.3061C8.82576 21.5922 9.76669 21.7327 10.9317 21.7327C11.5742 21.7327 12.2026 21.6841 12.8321 21.5986C13.4638 21.5067 14.0299 21.3452 14.5511 21.1161C15.056 20.8881 15.468 20.5671 15.785 20.1522C16.1073 19.7383 16.2669 19.202 16.2669 18.5337C16.2669 18.0555 16.1598 17.6553 15.9369 17.3323C15.6964 17.0061 15.3872 16.7421 14.9741 16.5236C14.5511 16.3082 14.0626 16.1161 13.4955 15.9577C12.9228 15.7993 12.3075 15.6367 11.6376 15.4731L8.89351 14.8576C7.86078 14.6274 6.84553 14.3783 5.8729 14.0996C4.90137 13.8272 4.04021 13.4271 3.29271 12.9161C2.54302 12.4009 1.94305 11.7188 1.4775 10.8795C1.01523 10.0529 0.781366 8.95066 0.781366 7.60141C0.781366 7.14322 0.841472 6.63223 0.939828 6.08641C1.0502 5.53636 1.23052 4.98209 1.4939 4.41727C1.75509 3.85561 2.119 3.30556 2.57909 2.77135C3.04791 2.23291 3.64023 1.76416 4.37899 1.35453C5.11447 0.960734 5.98874 0.630284 7.01274 0.380071C8.03454 0.127746 9.23229 0 10.6093 0C12.5469 0 14.1665 0.276607 15.4527 0.825598C16.7368 1.3767 17.7499 2.0566 18.5149 2.85686C19.2755 3.65924 19.8044 4.52178 20.1159 5.45401C20.4164 6.37885 20.5727 7.22557 20.5727 7.97937H15.4527C15.4014 7.70804 15.3216 7.35437 15.2167 6.92784C15.1129 6.5066 14.8801 6.10013 14.5238 5.71056C14.1665 5.31782 13.6452 4.98209 12.9818 4.69704C12.3032 4.41093 11.3786 4.26418 10.2158 4.26418C9.71861 4.26418 9.2006 4.31908 8.67057 4.41727C8.1329 4.52178 7.6586 4.69387 7.22256 4.91875C6.79745 5.14679 6.44446 5.45401 6.18327 5.83092C5.89913 6.21099 5.76908 6.6713 5.76908 7.22557C5.76908 7.70804 5.85105 8.10184 6.03246 8.40801C6.20731 8.7184 6.44337 8.9665 6.70893 9.1502C6.98979 9.33285 7.27939 9.46904 7.60178 9.56194C7.91979 9.65063 8.21704 9.73298 8.47168 9.80266L14.703 11.2828C15.5751 11.4866 16.421 11.7389 17.2319 12.0366C18.0373 12.3365 18.7498 12.7355 19.3629 13.2402C19.9869 13.7459 20.4776 14.3783 20.8361 15.1342C21.2153 15.8848 21.3945 16.8171 21.3945 17.9161C21.3945 19.1587 21.1989 20.2187 20.8109 21.0981C20.412 21.9797 19.9126 22.7219 19.2755 23.3163C18.6471 23.9138 17.9553 24.3889 17.1903 24.7426C16.4363 25.1047 15.6779 25.3687 14.9336 25.5534C14.185 25.7371 13.4955 25.8533 12.8463 25.9145C12.207 25.9673 11.7076 26 11.3174 26C8.99405 26 7.11546 25.7139 5.68166 25.1417C4.24239 24.5631 3.12769 23.8674 2.34522 23.0238C1.5693 22.1908 1.04474 21.2882 0.781366 20.3274C0.523456 19.3593 0.394501 18.4999 0.394501 17.7451H5.5232Z" fill="white"/>
+            </svg>
+            <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3945 16.6832C20.3945 18.3202 20.1549 19.7212 19.6808 20.8934C19.2141 22.0666 18.537 23.0351 17.6475 23.7894C16.7664 24.5478 15.6917 25.1078 14.4359 25.463C13.1802 25.8161 11.7685 26 10.203 26C9.63058 26 9.00166 25.9561 8.31936 25.8767C7.64021 25.7952 6.95164 25.6354 6.25365 25.4139C5.54415 25.1799 4.84615 24.8686 4.17746 24.4914C3.49517 24.1164 2.88194 23.6212 2.32941 22.9954C1.66386 22.2359 1.17726 21.3562 0.891571 20.3595C0.60484 19.3587 0.435313 18.2346 0.394501 16.9955V0H5.68228V16.655C5.68228 17.5242 5.7953 18.2722 6.02238 18.8917C6.25365 19.5112 6.57073 20.0252 6.97466 20.4264C7.37441 20.8276 7.84532 21.1253 8.38843 21.3238C8.93259 21.515 9.49559 21.6174 10.1025 21.6174C11.892 21.6174 13.1802 21.2079 13.9493 20.3888C14.7248 19.5708 15.114 18.4111 15.114 16.8942V0H20.3945V16.6832Z" fill="white"/>
+                </svg>
+                <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97543 26H0.394501V0H19.3945V4.52652H5.97543V10.7791H17.7212V15.1864H5.97543V26Z" fill="white"/>
+                </svg>
+            <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97543 26H0.394501V0H19.3945V4.52652H5.97543V10.7791H17.7212V15.1864H5.97543V26Z" fill="white"/>
+            </svg>
+            <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.39619 26H0.394501L6.3872 0H12.3945L6.39619 26Z" fill="white"/>
+                </svg>
+            
+                <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5624 0H13.5648V1.01385H8.37083L14.4392 11.3156L21.6284 1.01385H17.0242V0H26.8921V1.01385H23.0184L15.1838 12.391L24.0367 25.9872H28.3945V27H15.0694V25.9872H19.2701L12.867 15.799L5.65281 25.9872H10.4663V27H0.394501V25.9872H4.23112L12.093 14.757L3.66091 1.01385H0.5624V0Z" fill="white"/>
+                    </svg>
+        </p>       
+        <p class="title-text">Designed by Suffix </p>
+    </footer>
+    
+</body>
+</html>
