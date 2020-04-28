@@ -1,0 +1,13 @@
+@mixin widhtHeight($width, $height){
+width: $width;
+height: $height;
+}
+@mixin BlocksWH(){
+width: 80px;
+height: 250px;
+}
+@mixin flexDisplay($direction,$justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
