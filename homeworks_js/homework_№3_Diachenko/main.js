@@ -64,21 +64,85 @@
 
 //Завдання 8
 
-let n=+prompt('Введіть число');
+// Варіант як на лекції
 
-let s=+prompt('Введіть степінь');
+// let n = +prompt('Введіть число');
+// let s = +prompt('Введіть степінь');
 
-let res=1;
-if(s>0){
-for(let i=1; i<=s; i++){
-    res=res*n
+// let res = 1;
+// if (s > 0) {
+//     for (let i = 1; i <= s; i++) {
+//         res = res * n
+//     }
+// }
+// else if (s < 0) {
+//     s = -s;
+//     for (let i = 1; i <= s; i++) {
+//         res = res * n
+//     }
+//     res = 1 / res
+// }
+// console.log(res)
+
+
+//Другий варіант
+
+// let n = +prompt('Введіть число');
+// let s = +prompt('Введіть степінь');
+
+// let res = 1;
+// let a
+// if (s >= 0) {
+//     a = s;
+// }
+// else {
+//     a = -s;
+// }
+// for (let i = 1; i <=a; i++) {
+//     res = res * n
+// }
+
+// if (s < 0) {
+//     res = 1 / res
+// }
+// console.log(res)
+
+
+
+//Трохи інший запис другого варіанту
+
+
+// let n = +prompt('Введіть число');
+// let s = +prompt('Введіть степінь');
+
+// let res = 1;
+
+// let a = s >= 0 ? s : -s;
+// for (let i = 1; i <=a; i++) {
+//     res = res * n
+// }
+
+// if (s < 0) {
+//     res = 1 / res
+// }
+// console.log(res)
+
+
+
+
+//Варіант з використанням модуля
+
+let n = +prompt('Введіть число');
+let s = +prompt('Введіть степінь');
+
+let res = 1;
+
+for (let i = 1; i <= Math.abs(s); i++) {
+    res = res * n
 }
-}
-else if(s<0){
-    s=-s;
-    for(let i=1; i<=s; i++){
-    res=res*n
-    }
-    res=1/res
+
+if (s < 0) {
+    res = 1 / res
 }
 console.log(res)
+
