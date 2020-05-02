@@ -39,7 +39,7 @@
 
 
 
-//З вікористанням формули знаходження суми геометричної прогресії
+//З використанням формули знаходження суми геометричної прогресії
 
 
 
@@ -50,4 +50,23 @@
 // }
 
 // geometriсProgression(4, 3)
+
+
+
+
+//Завдання 3 
+
+let simpleNumber = function (f, s) {
+    for (let i = f; i <= s; i++) {
+        let result = 0;
+        for (let j = 2; j < i; j++) {
+            if (i % j) { continue }
+            result++
+        }
+        if (!result) console.log(i)
+    }
+}
+let f = +prompt('введіть число');
+let s = +prompt('введіть число');
+simpleNumber(f, s);
 
