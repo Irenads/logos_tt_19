@@ -54,6 +54,7 @@
 //   Завдання 3
 
 
+
 // function test() {
 //     if (arguments.length > 0) {
 //         let max = arguments[0]
