@@ -18,9 +18,11 @@
 // function getArea(number) {
 //     if (number == null) {
 //         console.log('Будь ласка, введіть радіус!')
-//     } else if (isNaN(number)) {
+//     } 
+//     else if (isNaN(number)) {
 //         console.log('Повинно бути числове значення.')
-//     } else {
+//     }
+//      else {
 //         let res = Math.PI * Math.pow(number, 2);
 //         console.log(`Площа дорівнює ${res} квадратних одиниць.`);
 //     }
@@ -39,20 +41,20 @@
 function getSqrt(number) {
     if (number == null) {
         console.log('Будь ласка, введіть число.')
-    } 
+    }
     else if (isNaN(number)) {
         console.log('Повинно бути числове значення.')
-    } 
-    else if (number<0) {
+    }
+    else if (number < 0) {
         console.log('Введіть додатнє число.')
-    } 
+    }
     else {
         let res = Math.sqrt(number);
         console.log(`Квадратний корінь з ${number} дорівнює  ${res} `);
     }
-
 }
 getSqrt()
 getSqrt('a')
 getSqrt(4)
 getSqrt(-5)
+
