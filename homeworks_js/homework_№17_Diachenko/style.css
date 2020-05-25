@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Digital";
+    src: url(16198.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Digital";
+    color: rgb(109, 206, 109);
+    background-color: rgb(5, 17, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#data {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(16, 49, 6);
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 0;
+    font-weight: 100;
+    margin: 50px 500px auto;
+    text-shadow: 1px 1px 1.5px rgb(132, 233, 132), -1px -1px 1.5px rgb(132, 252, 142);
+}
+
+h3 {
+    margin: 5px auto
+}
+
+input {
+    font-family: "Digital";
+    color: rgb(109, 206, 109);
+    background: none;
+    border: 1px solid rgb(16, 49, 6);
+    border-radius: 5px;
+    width: 35px;
+    height: 20px;
+}
+
+.stopwatch,
+.timer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(16, 49, 6);
+    margin-top: 10px;
+}
+
+#stopwatchText {
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgb(15, 39, 8);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(132, 233, 132, 0.3), -1px -1px 5px rgba(132, 252, 142, 0.2);
+    background-color: rgb(2, 7, 2);
+    font-size: 15px;
+    text-align: center;
+    overflow: scroll;
+}
+
+#stopwatchNumbers {
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timerhNumbers {
+    font-size: 50px
+}
+
+.minutes {
+    font-size: 10px
+}
+
+#timerStart {
+    font-size: 70px;
+    width: 170px;
+    line-height: 100px;
+}

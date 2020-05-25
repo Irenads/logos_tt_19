@@ -1,0 +1,27 @@
+body{
+    background-size: cover;
+}
+#conteiner {
+    width: 300px;
+    height: 300px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.divColors {
+    display: none;
+    width: 98px;
+    height: 98px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000;
+}
+button{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+}
