@@ -1,0 +1,21 @@
+input{
+    border-radius: 4px;
+    margin-right: 3%;
+}
+.first,
+.second{
+    width: 30%;
+    height: 30px;
+}
+.move{
+    width: 10%;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.place{
+    width: 77%;
+    height: 30px;
+}
