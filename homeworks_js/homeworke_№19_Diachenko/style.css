@@ -1,0 +1,46 @@
+body {
+    background: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+form {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 40px auto;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(102, 100, 100);
+    border-radius: 4px;
+    font-size: 14px; 
+}
+
+button {
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(56, 147, 245, 0.913);
+    color: white;
+    font-size: 20px;
+}
+
+.firstName, .lastName, .email, .phone, .password {
+    display: none;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+    background-color: red;
+    border: 1px solid rgb(116, 2, 2);
+    border-radius: 4px;
+    color: white;
+    margin: 3px 2px;
+    padding-left: 4px;
+    text-align: left;
+}
