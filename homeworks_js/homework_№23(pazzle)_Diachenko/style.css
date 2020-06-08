@@ -1,0 +1,27 @@
+.conteinerOne{
+    margin-top:50px;
+    margin-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.592);
+}
+
+.conteinerTwo{
+    margin-top:-400px;
+    margin-left:700px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.592);
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
