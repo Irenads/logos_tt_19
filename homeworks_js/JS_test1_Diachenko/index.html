@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>JS_test1_Diachenko</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="firstPage">
+        <div class="mainText">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="btnEditStyle">
+            <button type="button" class="btn btn-warning editBtn">Edit</button>
+            <button type="button" class="btn btn-info styleBtn">Style</button>
+        </div>
+
+        <div class="editStyle">
+            <section class="sectionEdit">
+                <textarea></textarea></br>
+                <button type="button" class="btn btn-danger addBtn">add</button>
+                <button type="button" class="btn btn-success saveBtn">save</button>
+            </section>
+            <div>
+            <section class="sectionStyle">
+                <form name="fontSize">
+                  Font Size:</br>
+                    <input type="radio" name="tr" value="12px">12px
+                    <input type="radio" name="tr" value="14px">14px
+                    <input type="radio" name="tr" value="16px" checked>16px
+                    <input type="radio" name="tr" value="18px">18px
+                    <input type="radio" name="tr" value="20px">20px
+                </form>
+                <form name="fontFamily">
+                    Font Family</br>
+                    <select name="selectOptn" style="width: 250px;">
+                        <option selected disable value="defolt">Choose option</option>
+                        <option value="cursive">cursive</option>
+                        <option value="fantasy">fantasy</option>
+                        <option value="monospase">monospase</option>
+                        <option value="sensSerif">sens-serif</option>
+                    </select>
+                </form>
+                    <form name="formColors">
+                        Colors:</br>
+                        <button type="button" class="btn btn-secondary" name="colorOfTxt">Color of Text</button>
+                        <button type="button" class="btn btn-secondary" name="bgdColor">Backgraund color</button>
+                    </form>
+                <form name="fontStyle">
+                    Style:</br>
+                    <div>
+                        <input type="checkbox" name="checkboxBold" value="bold">Bold text
+                        <input type="checkbox" name="checkboxCursive" value="italic">Cursive text
+                    </div>
+                </form>
+            </section>
+            <div id="divColors">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="secondPage">
+        <form name="tableList" class="tableList">
+            <h4>Choose what you want:</h4>
+            <input type="radio" name="tr" class="radioTable" value="table"> table
+            <input type="radio" name="tr" class="radioList" value="list"> list
+        </form>
+
+
+        <form name="table" class="table">
+            <p class="inputTable">Count TR:<input type="text" name="countTR" style="width: 85%;" placeholder=" Count TR:"></p>
+            <p class="inputTable">Count TD:<input type="text" name="countTD" style="width: 85%;" placeholder="Count TD:"></p>
+            <h5>Add style to your table:</h5>
+            <p class="inputTable">Width of TD:<input type="text" name="tdWidth"  style="width: 85%;" placeholder="Width of TD:"></p>
+            <p class="inputTable">Height of TD:<input type="text" name="tdHeight" style="width: 85%;" placeholder="Height of TD:"></p>
+            <p class="inputTable">
+                Widht of border:<input type="text" name="borderWidht" placeholder="Widht of border:">
+                Type of border:<select name="borderType">
+                    <option value="solid">solid</option>
+                    <option value="dotted">dotted</option>
+                    <option value="double">double</option>
+                    <option value="dashed">dashed</option>
+                </select>
+                Color of border:<select name="borderColor">
+                    <option value="black">black</option>
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                </select>
+            </p>
+            <button type="button" class="btn btn-success createTable">Create table</button>
+        </form>
+
+
+        <form name="list" class="list">
+            <p class="inputTable">Count Li:<input type="text" name="countLi" style="width: 85%;" placeholder="Count Li:"></p>
+            <p class="inputTable">Type of marks:<select name="typeMarks" style="width: 85%;">
+                    <option selected value="circle">circle</option>
+                    <option  value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+            </p>
+            <button type="button" class="btn btn-success createList">Create list</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.firstPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mainText {
+    width: 70%;
+    height: 275px;
+    background-color: rgba(207, 203, 203, 0.4);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+    overflow: scroll;
+}
+
+.btnEditStyle {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.editStyle {
+    width: 70%;
+    height: 275px;
+    background-color: rgba(207, 203, 203, 0.4);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+    overflow: scroll;
+}
+
+.sectionEdit {
+    display: none;
+    width: 90%;
+    height: 90%;
+    padding: 20px 0 0 0;
+}
+
+textarea {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+}
+
+.sectionStyle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 25px;
+    font-size: 14px;
+    width: 50%;
+    height: 90%;
+}
+
+#divColors {
+    width: 200px;
+    height: 200px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+    margin-top: -22%;
+    box-shadow: 12px 12px 10px 1px rgba(84, 86, 110, 0.352);
+
+}
+
+.color {
+    display: none;
+    width: 33.33%;
+    height: 33.33%;
+    border: 1px solid rgba(122, 121, 121, 0.454);
+    background-size: cover;
+    background-position: center;
+}
+
+.secondPage {
+    display: none;
+    width: 70%;
+    background-color: rgba(207, 203, 203, 0.4);
+    border-radius: 10px;
+    margin: 20px auto;
+
+    font-size: 14px;
+    text-align: left;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+.table {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.inputTable {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list{
+    display: none;
+}
